@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent.git", from: "3.0.0"),
 
         // 🐘 Non-blocking, event-driven Swift client for PostgreSQL.
-        .package(url: "https://github.com/vapor/fluent-postgresql.git", from: "1.0.0"),
+        .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "1.0.0"),
 
         // Well Known Binary Encoding and Decoding
         .package(url: "https://github.com/plarson/WKCodable", from: "0.1.1"),
